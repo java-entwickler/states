@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row h-100" style="padding-top: 1em">
+    <div class="col" style="display: flex; flex-direction: column; height: 100%">
+      <app-autocomplete style="height: 100%"></app-autocomplete>
+    </div>
+
+    <div class="col" style="display: flex; flex-direction: column;">
+      <div class="row" style="margin-top: 10%">
+        <div class="col">
+          <button class="btn btn-success btn-block" data-toggle="collapse" data-target="#addState"
+                  aria-expanded="false" aria-controls="addState">Add a State</button>
+        </div>
+        <div class="col">
+          <button class="btn btn-info btn-block" data-toggle="collapse" data-target="#editState"
+                  aria-expanded="false" aria-controls="editState" [class.disabled]="selectedState==null">Edit a State</button>
+        </div>
+        <div class="col">
+          <button class="btn btn-danger btn-block" (click)="deleteState()" [class.disabled]="selectedState==null">Delete a State</button>
+        </div>
+      </div>
+
+      <app-add-state></app-add-state>
+      <app-edit-state></app-edit-state>
+    </div>
+  </div>
+</div>
