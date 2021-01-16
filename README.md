@@ -14,10 +14,10 @@ This application does CRUD operations with names of states. It consists of a bac
 ## Installation and Usage
 * Run `git clone https://github.com/java-entwickler/states-app.git` to clone this repository
 
-#### Backend
+### Backend
 1. Open the project in your favorite IDE and run the app. The server will start at port 8080.
 
-#### Frontend
+### Frontend
 2. Open terminal in the `src/main/frontend` folder and run `npm install`
 2. Run `ng serve` for a development server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
