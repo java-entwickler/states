@@ -12,7 +12,7 @@ This application does CRUD operations with names of states. It consists of a bac
 
 
 ## Installation and Usage
-* Run `git clone https://github.com/java-entwickler/states-app.git` to clone this repository
+* Run `git clone https://github.com/java-entwickler/states.git` to clone this repository
 
 ### Backend
 1. Open the project in your favorite IDE and run the app. The server will start at port 8080.
