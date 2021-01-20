@@ -1,6 +1,6 @@
 # States Application
 
-This application does CRUD operations with names of states. It consists of a backend (Spring Boot) and a frontend (Angular) 
+This is a small app I made for learning purposes. It does CRUD operations with the names of US states. Here I used Spring Boot, Spring Data Jpa, H2 and Lombok on the backend and Angular on the frontend.
 
 ## Requirements
 
