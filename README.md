@@ -23,4 +23,4 @@ This is a small app I made for learning purposes. It does CRUD operations with t
 
 ## Documentation
 1. GET http://localhost:8080/v2/api-docs for json documentation
-1. Or go to http://localhost:8080/swagger-ui.html for interactive UI documenation
+1. Or go to http://localhost:8080/swagger-ui.html for interactive UI documentation
